@@ -1,0 +1,16 @@
+.table_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.table_container .table{
+    width: 70vw;
+    margin-top: 15px;
+}
+.ok{
+    color: green;
+}
+.no{
+    color: red;
+}
