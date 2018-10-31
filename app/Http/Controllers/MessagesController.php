@@ -13,7 +13,7 @@ class MessagesController extends Controller
         return view('index', compact('messages'));
     }
 
-    public function insert(){
+    public function insert() : int{
         $email=$_POST['email'];
         $name_message=$_POST['name_message'];
         $message=$_POST['message'];
